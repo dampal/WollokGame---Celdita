@@ -1,0 +1,12 @@
+import wollok.game.*
+import personaje.*
+
+
+program pruebita{
+	game.title("pruebita")
+	game.cellSize(1)
+	game.width(1024)
+	game.height(768)
+	game.addVisualCharacter(personita)
+	game.start()
+}
